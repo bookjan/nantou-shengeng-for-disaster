@@ -1,6 +1,6 @@
 $(function() {
     var entrylist;
-    $.get("http://6024e5a3.ngrok.io/ncdr", function(data) {
+    $.get("http://localhost/ncdr", function(data) {
 
         // var xmlDoc = $.parseXML(data)
         var $xml = $(data);

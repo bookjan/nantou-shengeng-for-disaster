@@ -15,10 +15,6 @@ app.get('/ncdr', function(req, res) {
     res.sendFile(__dirname + '/public/ncdr.xml')
 })
 
-app.get('/test', function(req, res) {
-    res.sendFile(__dirname + '/public/test.xml')
-})
-
 app.listen(port, function() {
     console.log('Express app listening on port ' + port + '.');
 });
