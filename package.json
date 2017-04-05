@@ -1,0 +1,25 @@
+{
+  "name": "nantou-shengeng-for-disaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fs": "^0.0.1-security",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bookjan/nantou-shengeng-for-disaster.git"
+  },
+  "author": "bookjan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bookjan/nantou-shengeng-for-disaster/issues"
+  },
+  "homepage": "https://github.com/bookjan/nantou-shengeng-for-disaster#readme"
+}
