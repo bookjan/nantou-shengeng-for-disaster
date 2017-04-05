@@ -1,6 +1,6 @@
 $(function() {
     var entrylist;
-    $.get("http://localhost/ncdr", function(data) {
+    $.get("https://nantou-shengeng-for-disaster.herokuapp.com/ncdr", function(data) {
 
         // var xmlDoc = $.parseXML(data)
         var $xml = $(data);
